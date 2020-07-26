@@ -1,0 +1,19 @@
+<h1>POST Request Received</h1>
+<!--Table for URL query string -->
+<table style="border: 1px solid black;">
+    <tbody>
+        {{#each urlList}}
+          <tr><td style="border: 1px solid black;">{{this.name}}<td style="border: 1px solid black;">{{this.value}}
+        {{/each}}
+    </tbody>
+</table>
+<br>
+<br>
+<!--Table for Request Body -->
+<table style="border: 1px solid black;">
+    <tbody>
+        {{#each bodyList}}
+          <tr><td style="border: 1px solid black;">{{this.name}}<td style="border: 1px solid black;">{{this.value}}
+        {{/each}}
+    </tbody>
+</table>
