@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "express-handlebars": "^2.0.0"
+  }
+}
